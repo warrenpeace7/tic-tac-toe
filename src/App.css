@@ -1,0 +1,95 @@
+
+.App{
+  width: 100%;
+}
+h1 {
+  text-align: center;
+  background-color: darkgreen;
+  padding: 20px 0px;
+}
+
+.section-board {
+
+width: 100%;
+background-color: lightblue;
+}
+.flex-container {
+display: flex;
+justify-content: center;
+border: black;
+border-style: solid;
+width: 600px;
+height: 600px;
+margin: 60px;
+}
+
+.left {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+width: 200px;
+height: 600px;
+border: black;
+border-style: solid;
+}
+
+
+.center {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+width: 200px;
+height: 600px;
+border: black;
+border-style: solid;
+}
+
+.right {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+width: 200px;
+height: 600px;
+border: black;
+border-style: solid;
+align-items: center;
+}
+
+.left p {
+width: 100%;
+height: 32%;
+border: black;
+border-style: solid;
+border-width: 5px;
+text-align: center;
+align-items: center;
+font-size: 100px;
+}
+
+.center p {
+width: 100%;
+height: 32%;
+border: black;
+border-style: solid;
+border-width: 5px;
+text-align: center;
+font-size: 100px;
+
+}
+
+.right p {
+width: 100%;
+height: 32%;
+border: black;
+border-style: solid;
+border-width: 5px;
+text-align: center;
+font-size: 100px;
+align-content: center;
+
+}
+
+p {
+  margin: 0px;
+
+}
